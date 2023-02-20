@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" class="product" id="myform">
+        <label>Selling Price</label>
+            <input type="text" id="sp">
+            <label>Product Name</label>
+             <input type="text" id="prod">
+<label>Choose a category</label>
+             <input list="category" name="category" id="cat">
+             <datalist id="category">
+               <option value="electronics">
+               <option value="food">
+               <option value="skincare">
+               
+             </datalist>
+
+        <input type="submit" value="Add Product" id="addproduct">
+    </form>
+    <div class="itemList">
+        <h2>Electronics</h2>
+        <div id="elec"></div>
+        <br>
+        <br>
+        <h2>Food</h2>
+        <div id="food"></div>
+        <br>
+        <br>
+        <h2>skincare</h2>
+        <div id="skincare"></div>
+    </div>
+    <script src="hello.js"></script>
+</body>
+</html>
